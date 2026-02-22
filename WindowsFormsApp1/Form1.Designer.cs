@@ -40,7 +40,6 @@
             this.but_clear = new System.Windows.Forms.Button();
             this.tabPage_history = new System.Windows.Forms.TabPage();
             this.btn_his_clear = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.tcl_1.SuspendLayout();
             this.tabPage_count.SuspendLayout();
             this.tabPage_history.SuspendLayout();
@@ -128,7 +127,6 @@
             // 
             // tabPage_count
             // 
-            this.tabPage_count.Controls.Add(this.button1);
             this.tabPage_count.Controls.Add(this.but_clear);
             this.tabPage_count.Controls.Add(this.txt_input1);
             this.tabPage_count.Controls.Add(this.cbx_operator);
@@ -176,15 +174,6 @@
             this.btn_his_clear.UseVisualStyleBackColor = true;
             this.btn_his_clear.Click += new System.EventHandler(this.btn_his_clear_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(139, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "测试推送";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -217,7 +206,6 @@
         private System.Windows.Forms.TabPage tabPage_history;
         private System.Windows.Forms.Button but_clear;
         private System.Windows.Forms.Button btn_his_clear;
-        private System.Windows.Forms.Button button1;
     }
 }
 
