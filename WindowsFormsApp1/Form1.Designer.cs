@@ -37,10 +37,10 @@
             this.lbx_history = new System.Windows.Forms.ListBox();
             this.tcl_1 = new System.Windows.Forms.TabControl();
             this.tabPage_count = new System.Windows.Forms.TabPage();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.but_clear = new System.Windows.Forms.Button();
             this.tabPage_history = new System.Windows.Forms.TabPage();
             this.btn_his_clear = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tcl_1.SuspendLayout();
             this.tabPage_count.SuspendLayout();
             this.tabPage_history.SuspendLayout();
@@ -144,6 +144,17 @@
             this.tabPage_count.Text = "计算器";
             this.tabPage_count.UseVisualStyleBackColor = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(72, 256);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(115, 22);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // but_clear
             // 
             this.but_clear.Location = new System.Drawing.Point(482, 225);
@@ -175,16 +186,6 @@
             this.btn_his_clear.Text = "清空历史记录";
             this.btn_his_clear.UseVisualStyleBackColor = true;
             this.btn_his_clear.Click += new System.EventHandler(this.btn_his_clear_Click);
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(72, 256);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(115, 22);
-            this.checkBox1.TabIndex = 7;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form
             // 

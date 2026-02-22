@@ -153,5 +153,10 @@ namespace WindowsFormsApp1
             if (e.KeyCode == Keys.Delete) { but_clear_Click(sender,e); }
 
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("勾选");
+        }
     }
 }
