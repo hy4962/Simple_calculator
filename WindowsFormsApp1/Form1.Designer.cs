@@ -40,6 +40,7 @@
             this.but_clear = new System.Windows.Forms.Button();
             this.tabPage_history = new System.Windows.Forms.TabPage();
             this.btn_his_clear = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tcl_1.SuspendLayout();
             this.tabPage_count.SuspendLayout();
             this.tabPage_history.SuspendLayout();
@@ -127,6 +128,7 @@
             // 
             // tabPage_count
             // 
+            this.tabPage_count.Controls.Add(this.checkBox1);
             this.tabPage_count.Controls.Add(this.but_clear);
             this.tabPage_count.Controls.Add(this.txt_input1);
             this.tabPage_count.Controls.Add(this.cbx_operator);
@@ -174,6 +176,16 @@
             this.btn_his_clear.UseVisualStyleBackColor = true;
             this.btn_his_clear.Click += new System.EventHandler(this.btn_his_clear_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(72, 256);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(115, 22);
+            this.checkBox1.TabIndex = 7;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -206,6 +218,7 @@
         private System.Windows.Forms.TabPage tabPage_history;
         private System.Windows.Forms.Button but_clear;
         private System.Windows.Forms.Button btn_his_clear;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
